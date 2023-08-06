@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Harry Potter</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+  background-color: #666;
+  padding: 30px;
+  text-align: center;
+  font-size: 35px;
+  color: white;
+}
+
+nav {
+  float: left;
+  width: 30%;
+  height: 300px;
+  background: #ccc;
+  padding: 20px;
+}
+
+nav ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+article {
+  float: left;
+  padding: 20px;
+  width: 70%;
+  background-color: #f1f1f1;
+  height: 300px; /* only for demonstration, should be removed */
+}
+
+/* Clear floats after the columns */
+section::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Style the footer */
+footer {
+  background-color: #777;
+  padding: 10px;
+  text-align: center;
+  color: white;
+}
+
+/* Responsive layout - makes the two columns/boxes stack on top of each other instead of next to each other, on small screens */
+@media (max-width: 600px) {
+  nav, article {
+    width: 100%;
+    height: auto;
+  }
+}
+</style>
+</head>
+<body bgcolor="sky blue">
+    <header style="margin:0;">
+<h1 style="color:goldenrod; background-color:burlywood; padding:10px;" >Harry Potter</h1>
+</header>
+
+  <h3 align="center">The world of harry potter is a vast one consisting of books, movies,and video games</h3>
+
+
+<section>
+  <nav>
+    <ul>
+
+      <li><a href="https://www.wizardingworld.com/discover/books " target="_blank">BOOKS</a></li>
+      <li><a href="https://www.wizardingworld.com/discover/films"target="_blank">MOVIES</a></li>
+      <li><a href="https://harrypottershop.co.uk/?utm_source=wwd_web&utm_medium=nav&utm_campaign=HPShop" target="_blank">MERCHANDISE</a></li>
+    </ul>
+ 
+  </nav>
+  
+  
+  <article>
+    <img src="hp.jpg" alt="logo" width="200" height="200"
+    <h4 align="right">About the harry potter series</h4>
+    <p>Harry Potter is a series of seven fantasy novels written by British author J. K. Rowling. 
+    The novels chronicle the lives of a young wizard, Harry Potter, and his friends Hermione Granger and Ron Weasley, all of whom are students at Hogwarts School of Witchcraft and Wizardry</p>
+  </article>
+</section>
+
+<p style="background-image: url('castle.jpg'); font: size 50px;">He left!” said Mrs. Figg, wringing her hands. “Left to see
+    someone about a batch of cauldrons that fell off the back of a broom!
+    I told him I’d flay him alive if he went, and now look! Dementors! It’s
+    just lucky I put Mr. Tibbies on the case! But we haven’t got time to
+    stand around! Hurry, now, we’ve got to get you back! Oh, the trouble
+    this is going to cause! I will kill him!”
+    “But —”
+    The revelation that his batty old cat-obsessed neighbor knew what
+    dementors were was almost as big a shock to Harry as meeting two of
+    them down the alleyway. “You’re — you’re a witch?”
+    “I’m a Squib, as Mundungus knows full well, so how on earth was
+    I supposed to help you fight off dementors? He left you completely
+    without cover when I warned him —”
+</p>
+
+<footer>
+    <p>Made by Anjali Patil</p>
+    <ul>
+        <li><a href="https://www.instagram.com/anjupatil_15/?hl=en" target="_blank">My Instagram </a></li>
+        <li><a href="https://www.linkedin.com/in/anjali-patil-0563a9280/" target="_blank">Connect on LinkedIn </a></li>
+        <li><a href="https://github.com/anjalipatil15" target="_blank"> Github profile</a></li>
+        </ul>
+</footer>
+
+</body>
+</html>
